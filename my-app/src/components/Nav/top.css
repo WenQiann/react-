@@ -1,0 +1,60 @@
+.page{
+    width: 100%;
+    height: 210px;
+    border-top: 1px solid #b0b0b0;
+    text-align: center;
+    box-shadow: #b0b0b0 0px 1px 1px 1px;
+    position: absolute;
+    background: white;
+    z-index: 20;
+    margin: 100px 0 0 -573px;
+    display: none;
+}
+.page_center{
+    display: inline-block;
+    border: 0px solid red;
+    width: 1226px;
+    height: 200px;
+}
+.page_one{
+    width: 202px;
+    height: 200px;
+    float: left;
+}
+.page_img{
+    margin: 35px 0 15px;
+    border-right: 1px solid #b0b0b0;
+    width: 202px;
+    height: 100px;
+    cursor: pointer;
+}
+.page_name,.page_price{
+    font-size: 12px;
+    cursor: pointer;
+}
+.list_active:hover{
+    color: #ff6700;
+    cursor: pointer;
+}
+.nav_list:hover .page{
+    display: block;
+}
+.nav_list{
+    width: 860px;
+    height: 100px;
+    border: 0px solid red;
+    float: left;
+    margin: 0 0 0 180px;
+}
+.list{
+    height: 100px;
+    line-height: 100px;
+    padding:0 10px;
+}
+.list a{
+    color: #333;
+    font-size: 16px;
+}
+.list:hover .list_btn{
+    color: #ff6700;
+}

@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+.header{
+    width: 1903px;
+    height: 40px;
+    background: #333;
+    text-align: center;
+}
+.heacen{
+    width: 1226px;
+    display: inline-block;
+    border: 0px solid red;
+}
+.leftbar{
+    width: 795px;
+    height: 40px;
+    border: 0px solid red;
+    float: left;
+}
+.lis{
+    list-style-type: none;
+    float: left;
+    color: #b0b0b0;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+.lis a{
+    padding: 0 6px;
+    border-right: 1px solid #424242;
+    color: #b0b0b0;
+}
+.lis:nth-child(13) a{
+    border: 0px;
+}
+.rightbar{
+    width: 140px;
+    height: 40px;
+    float: left;
+    margin: 0 0 0 155px;
+    border: 0px solid red;
+}
+.car{
+    width: 140px;
+    height: 40px;
+    background: #424242;
+    margin: 0 0 0 135px;
+}
+.cars{
+    color: #b0b0b0;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+.car img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 10px -20px 0 17px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.erweima{
+    width: 100px;
+    height: 120px;
+    border: 0px solid red;
+    position: fixed;
+    top: 40px;
+    left: 868px;
+    box-shadow: #b0b0b0 2px 2px 2px 2px;
+    z-index: 20;
+    background: #fff;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-top:10px solid transparent;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:10px solid white;
+    position: fixed;
+    top: 20px;
+    left: 910px;
+}
+.ers{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+.erweima p{
+    font-size: 14px;
+    color: #333;
+    margin: -6px 0 0px 0;
+}
+.hide{
+    display: none;
+}
+li:nth-child(11):hover .hide{
+    display: block;
+}
+.caricon{
+    width: 20px;
+    height: 20px;
+    border: 0px solid red;
+    float: left;
+    margin: 10px -20px 0 17px;
+    background: url(../../assets/img/img1/ia_200000363.png);
+    background-size: 100% 100%;
+}
+.car:hover .cars{
+    color: white;
+}
+.car:hover .caricon{
+    background: url(../../assets/img/img1/ia_200000364.png);
+    background-size: 100% 100%;
+}
+
+.shopping{
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    right: 340px;
+    box-shadow: #b0b0b0 0px 1px 1px 1px ;
+    display: none;
+    line-height: 100px;
+    font-size: 14px;
+    z-index: 20;
+    background: white;
+}
+.car:hover .shopping{
+    display: block;
+}
+.nav{
+    width: 1903px;
+    height: 100px;
+    text-align: center;
+    border: 0px solid red;
+}
+.navcon{
+    width: 1226px;
+    height: 100px;
+    margin: 0 0 0 337px;
+    border: 0px solid red;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    margin-top: 22px;
+    float: left;
+    background: url(../../assets/img/img1/ia_200000462.png);
+    background-size: 100% 100%;
+}
+
+.lists{
+    height: 100px;
+    line-height: 100px;
+    padding:0 10px;
+}
+.lists a{
+    color: #333;
+    font-size: 16px;
+}
+
+.search_img{
+    width: 52px;
+    height: 50px;
+    border: 1px solid #b0b0b0;
+    float: right;
+    margin: 25px -133px;
+    line-height: 50px;
+    color: #333;
+    cursor: pointer;
+}
+.search{
+    float: right;
+    width: 235px;
+    height: 50px;
+    margin: 25px -82px ;
+    padding: 0 0 0 10px;
+    border: 1px solid #b0b0b0;
+    outline: none;
+}
+.search_box{
+    width: 235px;
+    height: 245px;
+    border: 1px solid #ff6700;
+    position: absolute;
+    top: 114px;
+    right: 388px;
+    display: none;
+    z-index: 10;
+    background: white;
+    cursor: pointer;
+}
+.search_text{
+    width: 221px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    padding:2px 12px;
+    text-align: left;
+}
+.list:hover .list_btn{
+    color: #ff6700;
+}
+
+a:hover{
+    color: #ff6700 !important;
+}
